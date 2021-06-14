@@ -1,4 +1,6 @@
 *~
 .*~
+*.alfredworkflow
 filelist.txt
 matches.txt
+wfbuild
