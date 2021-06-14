@@ -33,6 +33,10 @@ all from inside [Alfred][3] with a single keyword: `fzf`.
 
 ![app bundle search](screenshots/app-bundle-search.png)
 
+<h4 align="center">Manually create folder-specific keywords</h4>
+
+![examples](screenshots/examples.png)
+
 [1]: https://github.com/sharkdp/fd
 [2]: https://github.com/junegunn/fzf
 [3]: https://www.alfredapp.com

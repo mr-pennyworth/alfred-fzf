@@ -288,6 +288,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>86184322-9BB1-45BC-B3CE-C2EDDC5B3D43</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -366,21 +381,6 @@
 			<string>084B9BF7-C0DF-4DEB-A79F-3C3E35EE9FE2</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>86184322-9BB1-45BC-B3CE-C2EDDC5B3D43</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -613,13 +613,23 @@
 		</dict>
 		<key>301944AF-908E-4C88-BCA6-66D7EDF5647F</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>edit this to change path
+(presently "/Volumes/Cloud/GoogleDrive")</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>560</integer>
+			<integer>665</integer>
 		</dict>
 		<key>3665FCDB-88B5-4140-9989-C2C1A50CEDE1</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Example 1: Desktop
+(edit this to change keyword)</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
@@ -627,17 +637,27 @@
 		</dict>
 		<key>4B001B6A-EAFE-426E-B6CD-585C7A9D569E</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Example 3: Google Drive
+(edit this to change keyword)</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>530</integer>
+			<integer>635</integer>
 		</dict>
 		<key>5E4164FD-0F52-40E4-9210-F0ABCF3DE4E1</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>edit this to change path
+(presently "~")</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>435</integer>
+			<integer>490</integer>
 		</dict>
 		<key>7027945D-7477-4727-B2B0-534CECD4A863</key>
 		<dict>
@@ -686,6 +706,11 @@
 		</dict>
 		<key>B1CA7957-2C6B-4431-907B-8EAFD57249E9</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>edit this to change path
+(presently "~/Desktop")</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
@@ -693,10 +718,15 @@
 		</dict>
 		<key>CE8211E2-3A0B-4A82-A9E1-2174DB623FA9</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Example 2: Home
+(edit this to change keyword)</string>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>405</integer>
+			<integer>460</integer>
 		</dict>
 		<key>F358AD9D-3FFD-4E4A-B8C1-2B52DC8A46F5</key>
 		<dict>
@@ -711,7 +741,7 @@
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/mr-pennyworth/alfred-fzf#readme</string>
 </dict>
