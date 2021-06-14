@@ -37,6 +37,30 @@ all from inside [Alfred][3] with a single keyword: `fzf`.
 
 ![examples](screenshots/examples.png)
 
+## Alternative and comparison
+[Fuzzy Folders][4] is another fuzzy search workflow that is more
+configurable and customizable. Instant Fuzzy File Search doesn't
+have any plans to match all the features supported by Fuzzy Folders.
+Neither does it aim to be as easy to customize. Take a look at the
+table below for a quick comparison between the two.
+
+|         | Instant Fuzzy File Search  | [Fuzzy Folders][4]  |
+|--------:|:--------------------------:|:-------------------:|
+| Detailed help section           | :x: | ✅ |
+| Dedicated settings interface    | :x: | ✅ |
+| Configurable query length       | :x: | ✅ |
+| Configurable excludes           | :x: | ✅ |
+| Search only folders             | :x: | ✅ |
+| Folder action for fuzzy search  | ✅ | ✅ |
+| Folder-specific keywords        | ✅ | ✅ |
+| Search hidden files             | ✅ | :x: |
+| Search inside symlinked folders | ✅ | :x: |
+| Search inside apps              | ✅ | :x: |
+| Independent of spotlight        | ✅ | :x: |
+| Order-independent matching      | ✅ | :x: |
+
+
 [1]: https://github.com/sharkdp/fd
 [2]: https://github.com/junegunn/fzf
 [3]: https://www.alfredapp.com
+[4]: https://github.com/deanishe/alfred-fuzzyfolders#readme
