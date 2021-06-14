@@ -1,7 +1,7 @@
 #!/bin/zsh -f
 
 filelist="$(pwd)/filelist.txt"
-fd="$(pwd)/fd"
+fd="$(pwd)/bin/fd"
 
 cd "${searchdir/#\~/$HOME}"
 

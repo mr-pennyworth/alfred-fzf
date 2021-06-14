@@ -1,10 +1,10 @@
 #!/bin/zsh -f
 
-cat filelist.txt         \
-  | ./fzf -f "$1"        \
-  | head -n9             \
-  | ./sed -e 's/"/\\&/g' \
-  | ./sed -e 's/\r$//g'  \
+cat filelist.txt             \
+  | ./bin/fzf -f "$1"        \
+  | head -n9                 \
+  | ./bin/sed -e 's/"/\\&/g' \
+  | ./bin/sed -e 's/\r$//g'  \
   > matches.txt
 
 # add an empty first object, so that
