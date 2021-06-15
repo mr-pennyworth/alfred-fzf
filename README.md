@@ -58,9 +58,12 @@ table below for a quick comparison between the two.
 | Search inside apps              | ✅ | :x: |
 | Independent of spotlight        | ✅ | :x: |
 | Order-independent matching      | ✅ | :x: |
+| Speed       | [Instant! 🚀][5] | [Slow][6] |
 
 
 [1]: https://github.com/sharkdp/fd
 [2]: https://github.com/junegunn/fzf
 [3]: https://www.alfredapp.com
 [4]: https://github.com/deanishe/alfred-fuzzyfolders#readme
+[5]: https://www.alfredforum.com/topic/17011-fuzzy-file-search-bring-powers-of-fzf-to-alfred/?do=findComment&comment=87359
+[6]: https://www.alfredforum.com/topic/17011-fuzzy-file-search-bring-powers-of-fzf-to-alfred/?do=findComment&comment=87357
